@@ -77,3 +77,7 @@ vzdump --mode snapshot --vmid 100 --storage local --cloud-init local:cloudinit
 [[index|Back to Proxmox VE]]
 
 [[index|Back to Proxmox VE]]
+
+[[index|Back to Proxmox VE]]
+
+[[index|Back to Proxmox VE]]

@@ -84,3 +84,7 @@ qm set 102 --onboot 1 --startup-delay 20
 [[index|Back to Proxmox VE]]
 
 [[index|Back to Proxmox VE]]
+
+[[index|Back to Proxmox VE]]
+
+[[index|Back to Proxmox VE]]

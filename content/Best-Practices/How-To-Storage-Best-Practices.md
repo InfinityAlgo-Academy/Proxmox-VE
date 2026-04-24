@@ -75,3 +75,7 @@ echo "192.168.1.50:/data /mnt/data nfs hard,intr,rsize=8192,wsize=8192 0 0" >> /
 [[index|Back to Proxmox VE]]
 
 [[index|Back to Proxmox VE]]
+
+[[index|Back to Proxmox VE]]
+
+[[index|Back to Proxmox VE]]

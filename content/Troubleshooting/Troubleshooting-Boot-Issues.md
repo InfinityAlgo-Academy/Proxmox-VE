@@ -45,3 +45,7 @@ qm set 100 --ide2 local:iso/ubuntu.iso,media=cdrom
 - [[Boot-Configuration]]
 - [[EFI-Configuration]]
 [[index|Back to Proxmox VE]]
+
+[[index|Back to Proxmox VE]]
+
+[[index|Back to Proxmox VE]]

@@ -30,3 +30,7 @@ qm set 100 --boot order=scsi0;ide2;net0
 - [[EFI-Configuration]]
 - [[VM]]
 [[index|Back to Proxmox VE]]
+
+[[index|Back to Proxmox VE]]
+
+[[index|Back to Proxmox VE]]

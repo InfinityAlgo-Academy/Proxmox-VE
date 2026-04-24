@@ -1,94 +1,40 @@
-# Proxmox VE Cloud Integration Guide
-
-## Table of Contents
-
-1. [Cloud Backup](#cloud-backup)
-2. [Cloud Sync](#cloud-sync)
-3. [Cloud Migration](#cloud-migration)
-4. [Hybrid Cloud](#hybrid-cloud)
-
+---
+title: Cloud
 ---
 
-## Cloud Backup
+# Cloud Integration
 
-### Backblaze
+## Proxmox Cloud Features
 
-```bash
-# Install rclone
-curl https://rclone.org/install.sh | sudo bash
+- Cloud-Init support
+- Cloud-Init templates
+- Network cloud configuration
 
-# Configure
-rclone config
-
-# Sync backups
-rclone sync /mnt/backup/dump/ backblaze:ProxmoxBackups
-```
-
-### AWS S3
+## Deploy from Cloud Image
 
 ```bash
-# Configure S3
-rclone config
+# Download cloud image
+wget https://cloud-images.ubuntu.com/jammy/current/jammy-server-cloudimg-amd64.img
 
-# Sync
-rclone sync /mnt/backup/dump/ s3:proxmox-backups
+# Create VM from cloud image
+qm importdisk 100 jammy-server-cloudimg-amd64.img local-lvm
+
+# Configure cloud-init
+qm set 100 --ide2 local:cloudinit,media=cdrom
+qm set 100 --sshkey ~/.ssh/id_rsa.pub
+qm set 100 --ipconfig0 ip=dhcp
 ```
 
-### Google Drive
+## Cloud-Init Examples
 
-```bash
-# Configure
-rclone config
+- [[Cloud-Init]]
+- [[Cloud-Apps]]
 
-# Sync
-rclone sync /mnt/backup/dump/ gdrive:ProxmoxBackups
-```
+## See Also
 
----
-
-## Cloud Sync
-
-### rsync to Cloud
-
-```bash
-# Google Drive
-rclone sync /mnt/pve/ gdrive:Proxmox
-
-# Backblaze
-rclone sync /mnt/pve/ backblaze:Proxmox
-
-# AWS S3
-rclone sync /mnt/pve/ s3:proxmox
-```
-
----
-
-## Hybrid Cloud
-
-### Connect to Cloud
-
-```bash
-# VPN to cloud
-wg-quick up wg0
-
-# Access cloud resources
-ssh cloud-server
-```
-
----
-
-## Keywords
-
-#cloud #backup #sync #hybrid
-
-## Links
-
-- [[Proxmox-VE]] - Main documentation
-- [[Backup]] - Backup configuration
----
-
-[[index|Back to Proxmox VE]]
-
+- [[Cloud-Init]]
+- [[Templates]]
+- [[VM]]
 [[index|Back to Proxmox VE]]
 
 [[index|Back to Proxmox VE]]

@@ -52,3 +52,7 @@ echo "nameserver 8.8.8.8" > /etc/resolv.conf
 - [[Networking]]
 - [[VLAN-Config]]
 [[index|Back to Proxmox VE]]
+
+[[index|Back to Proxmox VE]]
+
+[[index|Back to Proxmox VE]]

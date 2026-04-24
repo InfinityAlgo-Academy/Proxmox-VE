@@ -33,3 +33,7 @@ title: Home Lab
 - [[Docker]]
 - [[Installation]]
 [[index|Back to Proxmox VE]]
+
+[[index|Back to Proxmox VE]]
+
+[[index|Back to Proxmox VE]]

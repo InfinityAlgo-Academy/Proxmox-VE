@@ -29,3 +29,7 @@ rsync -av /etc/pve/ user@pve2:/etc/pve/
 [[index|Back to Proxmox VE]]
 
 [[index|Back to Proxmox VE]]
+
+[[index|Back to Proxmox VE]]
+
+[[index|Back to Proxmox VE]]

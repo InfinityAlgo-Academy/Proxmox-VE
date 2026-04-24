@@ -14,3 +14,7 @@ pct exec CTID -- wget -O server.jar https://papermc.io/api/v2/projects/paper/1.2
 [[index|Back to Proxmox VE]]
 
 [[index|Back to Proxmox VE]]
+
+[[index|Back to Proxmox VE]]
+
+[[index|Back to Proxmox VE]]

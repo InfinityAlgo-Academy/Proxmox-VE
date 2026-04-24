@@ -1,23 +1,44 @@
-# Remote Access Guide
+---
+title: Remote Access
+---
+
+# Remote Access
 
 ## VPN
 
 ### WireGuard
+
 ```bash
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/ct/wireguard.sh)"
+# Install WireGuard
+apt install wireguard -y
+
+# Generate keys
+wg genkey | tee private.key
+wg pubkey < private.key > public.key
 ```
 
 ### OpenVPN
-OpenVPN configuration
 
-## Remote Desktop
+```bash
+# Install OpenVPN
+apt install openvpn easy-rsa -y
+```
 
-### Guacamole
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/ct/guacamole.sh)"
----
+## SSH
 
-[[index|Back to Proxmox VE]]
+```bash
+# Connect to Proxmox
+ssh root@192.168.1.100
 
+# SSH to VM
+ssh user@192.168.1.101
+```
+
+## See Also
+
+- [[VPN]]
+- [[Security]]
+- [[Remote-Access]]
 [[index|Back to Proxmox VE]]
 
 [[index|Back to Proxmox VE]]
