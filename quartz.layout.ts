@@ -9,6 +9,7 @@ export const sharedPageComponents: SharedLayout = {
   footer: Component.Footer({
     links: {
       "Proxmox VE": "https://github.com/InfinityAlgo-Academy/Proxmox-VE",
+      "Telegram": "https://t.me/InfinityAlgo_Group_Topics",
     },
   }),
 }
