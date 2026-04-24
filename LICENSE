@@ -1,0 +1,35 @@
+GNU AFFERO GENERAL PUBLIC LICENSE
+                       Version 3, 19 November 2007
+
+ Copyright (C) 2007 Free Software Foundation, Inc.
+ <https://fsf.org/>
+ Everyone is permitted to copy and distribute verbatim copies
+ of this license document, but changing it is not allowed.
+
+                            Preamble
+
+  The GNU Affero General Public License is a free, copyleft
+license for software, specifically designed to ensure cooperation
+with the community in the sense of promoting the right to share,
+use and modify works of the software in a network service.
+
+  This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU Affero General Public License for more details.
+
+  You should have received a copy of the GNU Affero General Public
+License along with this program.  If not, see
+<https://www.gnu.org/licenses/> for terms.
+
+---
+
+## Proxmox VE Knowledge Base
+
+This knowledge base is distributed under AGPL v3.
+
+Copyright (C) 2020-2026 InfinityAlgo
+Author: King Arius (Ar hafsi)
+
+For support and contributions, visit:
+https://github.com/InfinityAlgo-Academy/Proxmox-VE
