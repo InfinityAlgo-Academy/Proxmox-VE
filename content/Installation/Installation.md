@@ -1,123 +1,176 @@
 ---
-title: Proxmox VE Installation
+title: Installation Guide
+tags:
+  - installation
+  - setup
+  - getting-started
+  - guide
 ---
 
-# Proxmox VE Installation
+# Installation Guide
+
+## Overview
+
+This guide covers installing Proxmox VE from ISO on bare metal or as a virtual machine.
+
+## System Requirements
+
+### Minimum
+
+| Component | Minimum |
+|-----------|---------|
+| CPU | 64-bit x86 |
+| RAM | 4 GB |
+| Storage | 32 GB |
+| Network | 1 Gbps |
+
+### Recommended
+
+| Component | Recommended |
+|-----------|------------|
+| CPU | Multi-core (Intel VT-x/AMD-V) |
+| RAM | 8 GB+ |
+| Storage | 128 GB SSD |
+| Network | 10 Gbps |
 
 ## Installation Methods
 
-### 1. ISO Installation (Recommended)
+### Method 1: USB Media
 
+1. **Download ISO**
+   ```
+   https://www.proxmox.com/en/downloads
+   ```
+
+2. **Create Boot USB**
+   ```bash
+   # Linux
+   dd if=proxmox-ve_8.0.iso of=/dev/sdX status=progress
+   
+   # Rufus (Windows)
+   # Select ISO, partition: GPT, filesystem: FAT32
+   ```
+
+3. **Boot & Install**
+   - Boot from USB
+   - Select "Install Proxmox VE"
+   - Follow wizard
+
+### Method 2: Network (PXE)
+
+1. **Setup PXE Server**
+   ```bash
+   apt install isc-dhcp-server tftp-hpa pxelinux syslinux
+   ```
+
+2. **Configure PXE**
+   ```
+   /tftpboot/pxelinux.cfg/default:
+   LABEL proxmox
+       MENU LABEL Proxmox VE 8.0
+       KERNEL proxmox/vmlinuz
+       APPEND initrd=proxmox/initrd.img
+   ```
+
+### Method 3: Virtual Environment
+
+#### Proxmox in VMware
 ```bash
-# Download Proxmox VE ISO
-wget https://www.proxmox.com/images/proxmox/release/ProxmoxVE_8.0-iso.tar.zsync
-# Or use the direct ISO
-# Create bootable USB
-sudo dd if=proxmox-8.0.iso of=/dev/sdX bs=1M status=progress
+# Create VM with:
+- CPU: 2+ cores (VT-x)
+- RAM: 4GB+
+- Disk: 32GB+
+- Network: Bridged
 ```
 
-### 2. PXE Network Boot
-
+#### Proxmox in Nested ESXi
 ```bash
-# Configure DHCP for PXE
-next-server 192.168.1.100;
-filename "pxelinux.0";
+# Enable nested virtualization
+vmware -v
+# Or in VM settings:
+# CPU > Hardware virtualization: Yes
 ```
-
-## Installation Steps
-
-1. **Boot from USB/ISO**
-2. **Select "Install Proxmox VE"**
-3. **Choose Target Disk** (or configure RAID first)
-4. **Set Location/Timezone**
-5. **Set Admin Password** + Email
-6. **Network Configuration**:
-   - Management IP: `192.168.1.x/24`
-   - Gateway: `192.168.1.1`
-   - Hostname: `pve1.yourdomain.com`
-7. **Review & Install**
 
 ## Post-Installation
 
-### Update Proxmox
+### 1. Update System
+
 ```bash
+# Update
 apt update && apt full-upgrade -y
-# Reboot after kernel update
-reboot
-```
 
-### Configure Repository
-```bash
-# Disable Enterprise repo (for unpaid)
+# Remove enterprise repo
 sed -i 's/^deb/#deb/' /etc/apt/sources.list.d/pve-enterprise.list
-# Enable community repo
-echo "deb http://download.proxmox.com/debian/pve bookworm pve-no-subscription" > /etc/apt/sources.list.d/pve-community.list
+
+# Add community repo
+echo "deb http://download.proxmox.com/debian/pve bookworm pve-no-subscription" > \
+  /etc/apt/sources.list.d/pve-community.list
+apt update
 ```
 
-### Access Web Interface
-- URL: `https://192.168.1.100:8006`
-- User: `root`
-- Password: (set during install)
-
-## Hardware Requirements
-
-| Component | Minimum | Recommended |
-|-----------|---------|-------------|
-| CPU | 2 cores | 4+ cores |
-| RAM | 4GB | 8GB+ |
-| System Disk | 32GB | 64GB+ SSD |
-| VM Storage | 50GB | 500GB+ |
-
-## Advanced Installation
-
-### On Existing Debian
+### 2. Set Timezone
 
 ```bash
-# Add Proxmox repository
-echo "deb http://download.proxmox.com/debian/pve bookworm pve-no-subscription" > /etc/apt/sources.list.d/pve-no-subscription.list
-wget https://enterprise.proxmox.com/debian/proxmox-release-8.gpg -O /etc/apt/trusted.gpg.d/proxmox-release.asc
-
-# Install Proxmox
-apt update && apt install proxmox-ve postfix open-iscsi -y
-
-# Remove old virtualization
-apt remove qemu-kvm -y
-apt autoremove -y
-
-# Reboot
-reboot
+timedatectl set-timezone Region/City
 ```
 
-### ZFS Root Installation
-
-During installation, select "ZFS (Mirror)" for:
-- Redundancy
-- Copy-on-write
-- Snapshots
-- Compression
+### 3. Configure Network
 
 ```bash
-# ZFS commands after install
-zpool status
-zfs list
-# Create snapshot
-zfs snap poolname/rpool@backup-2024-01-01
+# Edit /etc/network/interfaces
+nano /etc/network/interfaces
+```
+
+### 4. Create Storage
+
+```bash
+# Add local storage
+pvesm add dir local --path /var/lib/vz --content vztmpl,iso,rootdir,backup
+```
+
+## First VM
+
+```bash
+# Create VM
+qm create 100 \
+  --name "first-vm" \
+  --memory 2048 \
+  --cores 2 \
+  --net0 virtio,bridge=vmbr0 \
+  --scsi0 local-lvm:32
+
+# Start
+qm start 100
+```
+
+## First Container
+
+```bash
+# Download template
+pveam update
+pveam available
+pveam download debian-12-standard debian-12-standard_12.0.0-amd64.tar.zst
+
+# Create
+pct create 200 local:vztmpl/debian-12-standard_12.0.0-amd64.tar.zst \
+  --rootfs local:8 \
+  --memory 1024 \
+  --cores 1
+
+# Start
+pct start 200
 ```
 
 ## Troubleshooting
 
-See [[Troubleshooting]] for common installation issues.
+- **Boot issues**: Check BIOS boot order
+- **No network**: Check bridge configuration
+- **Storage missing**: Add storage pool
 
-## Keywords
+## See Also
 
-#proxmox #installation #setup #debian #zfs #raid #iso #usb #pxe
-
-## Links
-
-- [[Proxmox-VE]] - Main documentation
-- [[Storage]] - Disk configuration
-- [[Networking]] - Network setup
-- [[Troubleshooting]] - Installation issues
----
-
-[[index|Back to Proxmox VE]]
+- [[index|Back to Proxmox VE]]
+- [[Quick-Commands]]
+- [[Host-Configuration]]
+- [[Storage]]
+- [[Networking]]
