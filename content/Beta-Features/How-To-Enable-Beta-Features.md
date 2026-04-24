@@ -60,3 +60,5 @@ apt install proxmox-ve/stable
 [[index|Back to Proxmox VE]]
 
 [[index|Back to Proxmox VE]]
+
+[[index|Back to Proxmox VE]]
