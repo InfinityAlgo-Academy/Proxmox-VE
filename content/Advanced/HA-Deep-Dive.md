@@ -85,11 +85,3 @@ ha-manager crm modify vm:100 --priority 100
 ---
 
 [[index|Back to Proxmox VE]]
-
-[[index|Back to Proxmox VE]]
-
-[[index|Back to Proxmox VE]]
-
-[[index|Back to Proxmox VE]]
-
-[[index|Back to Proxmox VE]]

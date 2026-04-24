@@ -167,11 +167,3 @@ echo "Container $VMID backed up"
 ---
 
 [[index|Back to Proxmox VE]]
-
-[[index|Back to Proxmox VE]]
-
-[[index|Back to Proxmox VE]]
-
-[[index|Back to Proxmox VE]]
-
-[[index|Back to Proxmox VE]]

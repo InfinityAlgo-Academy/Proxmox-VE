@@ -25,8 +25,5 @@ fdisk /dev/sdb
 - [[Storage]]
 - [[RAID-Configuration]]
 - [[LVM-Management]]
-[[index|Back to Proxmox VE]]
-
-[[index|Back to Proxmox VE]]
 
 [[index|Back to Proxmox VE]]

@@ -43,6 +43,5 @@ title: Quick Commands
 
 - [[index]]
 - [[Automation]]
-[[index|Back to Proxmox VE]]
 
 [[index|Back to Proxmox VE]]

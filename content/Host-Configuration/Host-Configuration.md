@@ -35,6 +35,5 @@ echo "192.168.1.100 proxmox1" >> /etc/hosts
 - [[Host-Configuration]]
 - [[Kernel-Configuration]]
 - [[Installation]]
-[[index|Back to Proxmox VE]]
 
 [[index|Back to Proxmox VE]]

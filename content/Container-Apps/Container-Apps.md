@@ -46,6 +46,5 @@ pct exec 200 -- curl -L https://install.pi-hole.net | bash
 - [[Containers]]
 - [[Docker]]
 - [[Home-Automation]]
-[[index|Back to Proxmox VE]]
 
 [[index|Back to Proxmox VE]]

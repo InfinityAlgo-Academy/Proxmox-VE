@@ -140,11 +140,3 @@ echo "Test complete"
 ---
 
 [[index|Back to Proxmox VE]]
-
-[[index|Back to Proxmox VE]]
-
-[[index|Back to Proxmox VE]]
-
-[[index|Back to Proxmox VE]]
-
-[[index|Back to Proxmox VE]]

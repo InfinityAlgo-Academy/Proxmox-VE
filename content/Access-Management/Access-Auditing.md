@@ -197,11 +197,3 @@ For financial environments:
 ---
 
 [[index|Back to Proxmox VE]]
-
-[[index|Back to Proxmox VE]]
-
-[[index|Back to Proxmox VE]]
-
-[[index|Back to Proxmox VE]]
-
-[[index|Back to Proxmox VE]]

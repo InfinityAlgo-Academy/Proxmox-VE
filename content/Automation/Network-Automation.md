@@ -163,11 +163,3 @@ ip -s link
 ---
 
 [[index|Back to Proxmox VE]]
-
-[[index|Back to Proxmox VE]]
-
-[[index|Back to Proxmox VE]]
-
-[[index|Back to Proxmox VE]]
-
-[[index|Back to Proxmox VE]]

@@ -32,8 +32,5 @@ title: Home Lab
 - [[Home-Automation]]
 - [[Docker]]
 - [[Installation]]
-[[index|Back to Proxmox VE]]
-
-[[index|Back to Proxmox VE]]
 
 [[index|Back to Proxmox VE]]

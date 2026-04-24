@@ -46,11 +46,3 @@ qm create 100 --name my-vm --memory 4096 --cores 2 --scsi0 local:32 --net0 virti
 ---
 
 [[index|Back to Proxmox VE]]
-
-[[index|Back to Proxmox VE]]
-
-[[index|Back to Proxmox VE]]
-
-[[index|Back to Proxmox VE]]
-
-[[index|Back to Proxmox VE]]

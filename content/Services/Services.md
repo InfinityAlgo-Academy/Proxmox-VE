@@ -29,6 +29,5 @@ pct start 200 --onboot 1
 - [[Startup-Services]]
 - [[Auto-Start]]
 - [[Services]]
-[[index|Back to Proxmox VE]]
 
 [[index|Back to Proxmox VE]]

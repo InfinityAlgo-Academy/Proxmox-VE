@@ -36,6 +36,5 @@ pvecm add 192.168.1.102
 - [[High-Availability]]
 - [[Cluster]]
 - [[Installation]]
-[[index|Back to Proxmox VE]]
 
 [[index|Back to Proxmox VE]]

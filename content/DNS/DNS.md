@@ -28,8 +28,5 @@ pct set 200 --dns-search local.domain
 
 - [[Network]]
 - [[DNS-Config]]
-[[index|Back to Proxmox VE]]
-
-[[index|Back to Proxmox VE]]
 
 [[index|Back to Proxmox VE]]

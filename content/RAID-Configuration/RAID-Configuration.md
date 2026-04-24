@@ -33,8 +33,5 @@ mdadm --detail /dev/md0
 - [[Storage]]
 - [[Disk-Management]]
 - [[ZFS-Tuning]]
-[[index|Back to Proxmox VE]]
-
-[[index|Back to Proxmox VE]]
 
 [[index|Back to Proxmox VE]]

@@ -23,8 +23,5 @@ qm clone 100 101 --full --name "new-vm"
 - [[VM-Templates]]
 - [[VM]]
 - [[Cloning]]
-[[index|Back to Proxmox VE]]
-
-[[index|Back to Proxmox VE]]
 
 [[index|Back to Proxmox VE]]

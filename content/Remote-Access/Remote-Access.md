@@ -39,6 +39,5 @@ ssh user@192.168.1.101
 - [[VPN]]
 - [[Security]]
 - [[Remote-Access]]
-[[index|Back to Proxmox VE]]
 
 [[index|Back to Proxmox VE]]

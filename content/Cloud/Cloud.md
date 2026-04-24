@@ -35,6 +35,5 @@ qm set 100 --ipconfig0 ip=dhcp
 - [[Cloud-Init]]
 - [[Templates]]
 - [[VM]]
-[[index|Back to Proxmox VE]]
 
 [[index|Back to Proxmox VE]]

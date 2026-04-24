@@ -29,8 +29,5 @@ iface bond0 inet static
 - [[Networking]]
 - [[VLAN-Config]]
 - [[Network-Config]]
-[[index|Back to Proxmox VE]]
-
-[[index|Back to Proxmox VE]]
 
 [[index|Back to Proxmox VE]]

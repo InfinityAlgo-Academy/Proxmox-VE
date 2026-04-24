@@ -42,6 +42,5 @@ pct create 200 \
 - [[Containers]]
 - [[Docker]]
 - [[VM]]
-[[index|Back to Proxmox VE]]
 
 [[index|Back to Proxmox VE]]

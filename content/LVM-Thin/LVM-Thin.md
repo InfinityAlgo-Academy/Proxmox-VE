@@ -34,8 +34,5 @@ lvcreate -L 100G --thinpool thin_pool vg_data
 - [[LVM-Management]]
 - [[Storage]]
 - [[ZFS-Tuning]]
-[[index|Back to Proxmox VE]]
-
-[[index|Back to Proxmox VE]]
 
 [[index|Back to Proxmox VE]]
