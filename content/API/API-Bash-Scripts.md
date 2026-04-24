@@ -1,3 +1,7 @@
+---
+title: API Bash Scripts Guide
+---
+
 # API Bash Scripts Guide
 
 ## Overview

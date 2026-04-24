@@ -1,3 +1,7 @@
+---
+title: Hooks and Event-Driven Automation
+---
+
 # Hooks and Event-Driven Automation
 
 ## Overview

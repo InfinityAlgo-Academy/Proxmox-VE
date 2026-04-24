@@ -1,3 +1,7 @@
+---
+title: How to Test API Beta Features - Complete Guide
+---
+
 # How to Test API Beta Features - Complete Guide
 
 ## Question: How do I test new API features?

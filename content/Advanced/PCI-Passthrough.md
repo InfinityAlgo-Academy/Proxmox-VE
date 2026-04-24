@@ -1,3 +1,7 @@
+---
+title: PCI Passthrough Complete Guide
+---
+
 # PCI Passthrough Complete Guide
 
 ## Overview

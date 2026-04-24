@@ -1,3 +1,7 @@
+---
+title: How to Set Up Reverse Proxy - Complete Beginner's Guide
+---
+
 # How to Set Up Reverse Proxy - Complete Beginner's Guide
 
 ## Question: How do I set up a reverse proxy?

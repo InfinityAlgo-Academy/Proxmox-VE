@@ -1,3 +1,7 @@
+---
+title: Automation Scripts Best Practices
+---
+
 # Automation Scripts Best Practices
 
 ## Overview

@@ -1,9 +1,27 @@
-# Email Guide
-
-```bash
-# Mailu: bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/ct/mailu.sh)"
-# Postfix
-```
+---
+title: Email
 ---
 
-[[index|Back to Proxmox VE]]
+# Email
+
+## Email Server
+
+```bash
+# Install Postfix
+apt install postfix -y
+
+# Configure
+nano /etc/postfix/main.cf
+```
+
+## Relay
+
+```bash
+# Configure relay
+relayhost = smtp.example.com
+smtp_sasl_auth_enable = yes
+```
+
+## See Also
+
+- [[index|Back to Proxmox VE]]

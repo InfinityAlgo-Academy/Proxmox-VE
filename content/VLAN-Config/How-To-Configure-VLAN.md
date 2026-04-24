@@ -1,3 +1,7 @@
+---
+title: How to Configure VLAN - Complete Beginner's Guide
+---
+
 # How to Configure VLAN - Complete Beginner's Guide
 
 ## Question: How do I set up VLANs in Proxmox?

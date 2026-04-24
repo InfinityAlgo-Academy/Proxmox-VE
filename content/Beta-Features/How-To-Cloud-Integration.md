@@ -1,3 +1,7 @@
+---
+title: How to Use Cloud Integration Features - Complete Guide
+---
+
 # How to Use Cloud Integration Features - Complete Guide
 
 ## Question: How do I use cloud integration betas?

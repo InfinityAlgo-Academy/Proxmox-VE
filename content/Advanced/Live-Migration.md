@@ -1,3 +1,7 @@
+---
+title: Live Migration Advanced Guide
+---
+
 # Live Migration Advanced Guide
 
 ## Overview

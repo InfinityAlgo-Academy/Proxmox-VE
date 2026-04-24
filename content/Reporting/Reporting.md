@@ -1,14 +1,25 @@
-# Reporting Guide
-
-## Metrics
-- VM resource usage
-- Storage capacity
-- Network traffic
-
-## Tools
-- Grafana dashboards
-- pvesm status
-- qm list
+---
+title: Reporting
 ---
 
-[[index|Back to Proxmox VE]]
+# Reporting
+
+## Proxmox Reporting
+
+```bash
+# Generate report
+pvesh get /nodes/localhost/status --output-format json
+
+# Export
+pvesh get /cluster/resources --output-format yaml
+```
+
+## Reports
+
+- VM usage
+- Storage usage
+- Cluster status
+
+## See Also
+
+- [[index|Back to Proxmox VE]]

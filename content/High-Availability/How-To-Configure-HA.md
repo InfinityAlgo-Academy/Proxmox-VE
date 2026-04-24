@@ -1,3 +1,7 @@
+---
+title: How to Configure High Availability - Complete Beginner's Guide
+---
+
 # How to Configure High Availability - Complete Beginner's Guide
 
 ## Question: How do I set up High Availability?

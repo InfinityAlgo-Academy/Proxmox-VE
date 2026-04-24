@@ -1,3 +1,7 @@
+---
+title: Storage Complete Guide
+---
+
 # Storage Complete Guide
 
 ## Table of Contents

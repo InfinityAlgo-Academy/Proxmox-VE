@@ -1,3 +1,7 @@
+---
+title: How to Configure Networking - Complete Beginner's Guide
+---
+
 # How to Configure Networking - Complete Beginner's Guide
 
 ## Question: How do I set up networking in Proxmox VE?

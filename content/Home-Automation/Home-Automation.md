@@ -1,3 +1,7 @@
+---
+title: Home Automation Guide
+---
+
 # Home Automation Guide
 
 ## Core Platforms

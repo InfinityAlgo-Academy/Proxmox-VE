@@ -1,3 +1,7 @@
+---
+title: BIOS Configuration - Virtualization, Boot Order
+---
+
 # BIOS Configuration - Virtualization, Boot Order
 ---
 

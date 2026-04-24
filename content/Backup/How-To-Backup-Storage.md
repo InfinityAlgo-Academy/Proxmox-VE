@@ -1,3 +1,7 @@
+---
+title: How to Choose Backup Storage - Complete Guide
+---
+
 # How to Choose Backup Storage - Complete Guide
 
 ## Question: Where should I store my backups?

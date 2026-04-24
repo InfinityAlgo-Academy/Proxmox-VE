@@ -1,3 +1,7 @@
+---
+title: How to Provide Beta Feedback - Complete Guide
+---
+
 # How to Provide Beta Feedback - Complete Guide
 
 ## Question: How do I report beta issues?

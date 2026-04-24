@@ -1,3 +1,7 @@
+---
+title: Auto-Start Configuration Complete Guide
+---
+
 # Auto-Start Configuration Complete Guide
 
 ## Overview

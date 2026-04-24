@@ -1,3 +1,7 @@
+---
+title: How to Configure LVM Storage - Complete Beginner's Guide
+---
+
 # How to Configure LVM Storage - Complete Beginner's Guide
 
 ## Question: How do I set up LVM storage?

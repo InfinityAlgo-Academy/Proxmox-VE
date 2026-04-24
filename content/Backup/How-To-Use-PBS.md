@@ -1,3 +1,7 @@
+---
+title: How to Use Proxmox Backup Server (PBS) - Complete Guide
+---
+
 # How to Use Proxmox Backup Server (PBS) - Complete Guide
 
 ## Question: How do I set up and use Proxmox Backup Server?

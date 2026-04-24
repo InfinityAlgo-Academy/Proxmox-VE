@@ -1,17 +1,24 @@
-# Metrics Guide
-
-## System Metrics
-
-```bash
-# CPU
-qm perf <vmid>
-
-# Memory
-pct stats <ctid>
-
-# I/O
-iostat -x 1
-```
+---
+title: Metrics
 ---
 
-[[index|Back to Proxmox VE]]
+# Metrics
+
+## Monitor Performance
+
+```bash
+# CPU usage
+pvesh get /nodes/localhost/status
+
+# Show metrics
+pvestat
+```
+
+## Monitoring Tools
+
+- [[Monitoring-Tools]]
+- [[System-Logs]]
+
+## See Also
+
+- [[index|Back to Proxmox VE]]

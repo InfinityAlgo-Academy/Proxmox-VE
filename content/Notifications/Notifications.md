@@ -1,19 +1,22 @@
-# Notifications Guide
+---
+title: Notifications
+---
 
-## Email
+# Notifications
+
+## Email Notifications
 
 ```bash
 # Configure email
-# Datacenter → Options → Email
+pvesm add smtp local --server smtp.gmail.com --port 587
 ```
 
-## Telegram
+## Proxmox Notifications
 
-```bash
-# Create bot via @BotFather
-# Send message via API
-curl -s -X POST https://api.telegram.org/bot<token>/sendMessage -d chat_id=<chat_id> -d text="Alert"
-```
----
+- Email alerts
+- Syslog
+- Webhook
 
-[[index|Back to Proxmox VE]]
+## See Also
+
+- [[index|Back to Proxmox VE]]

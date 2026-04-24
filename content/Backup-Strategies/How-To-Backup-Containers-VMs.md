@@ -1,3 +1,7 @@
+---
+title: How to Back Up Containers vs VMs - Complete Guide
+---
+
 # How to Back Up Containers vs VMs - Complete Guide
 
 ## Question: What's the difference in backing up LXC containers vs VMs?

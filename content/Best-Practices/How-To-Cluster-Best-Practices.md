@@ -1,3 +1,7 @@
+---
+title: How to Configure Cluster Best Practices - Complete Guide
+---
+
 # How to Configure Cluster Best Practices - Complete Guide
 
 ## Question: How do I set up a proper cluster?

@@ -1,3 +1,7 @@
+---
+title: NFS Configuration - Network File System
+---
+
 # NFS Configuration - Network File System
 ---
 

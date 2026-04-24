@@ -1,3 +1,7 @@
+---
+title: Boot Delay Configuration Guide
+---
+
 # Boot Delay Configuration Guide
 
 ## Overview

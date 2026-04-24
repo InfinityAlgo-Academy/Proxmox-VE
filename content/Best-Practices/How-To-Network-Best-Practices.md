@@ -1,3 +1,7 @@
+---
+title: How to Configure Network Best Practices - Complete Guide
+---
+
 # How to Configure Network Best Practices - Complete Guide
 
 ## Question: How do I set up network properly?

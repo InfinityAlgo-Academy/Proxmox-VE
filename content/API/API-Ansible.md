@@ -1,3 +1,7 @@
+---
+title: Ansible Integration Guide
+---
+
 # Ansible Integration Guide
 
 ## Overview

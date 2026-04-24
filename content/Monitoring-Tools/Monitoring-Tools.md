@@ -1,3 +1,7 @@
+---
+title: Monitoring Tools Guide
+---
+
 # Monitoring Tools Guide
 
 ## Uptime Kuma

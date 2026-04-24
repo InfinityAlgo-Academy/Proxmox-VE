@@ -1,3 +1,7 @@
+---
+title: Startup Errors and Fixes Complete Guide
+---
+
 # Startup Errors and Fixes Complete Guide
 
 ## Overview

@@ -1,3 +1,7 @@
+---
+title: How to Encrypt Backup Data - Complete Guide
+---
+
 # How to Encrypt Backup Data - Complete Guide
 
 ## Question: How do I secure sensitive backup data?

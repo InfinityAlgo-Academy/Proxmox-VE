@@ -1,15 +1,26 @@
-# Logging Guide
-
-```bash
-# System logs
-tail -f /var/log/syslog
-
-# Proxmox logs
-tail -f /var/log/pveproxy/access.log
-
-# VM logs
-tail -f /var/log/qemu-server/qemu-100.log
-```
+---
+title: Logging
 ---
 
-[[index|Back to Proxmox VE]]
+# Logging
+
+## System Logs
+
+```bash
+# View logs
+journalctl -xe
+journalctl -u pveproxy
+journalctl -u pvedaemon
+```
+
+## Log Files
+
+| Path | Description |
+|------|-------------|
+| `/var/log/pveproxy/` | Web UI logs |
+| `/var/log/pvedaemon/` | API logs |
+| `/var/log/syslog` | System logs |
+
+## See Also
+
+- [[index|Back to Proxmox VE]]

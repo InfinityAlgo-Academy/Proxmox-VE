@@ -1,3 +1,7 @@
+---
+title: How to Use vGPU Features - Complete Guide
+---
+
 # How to Use vGPU Features - Complete Guide
 
 ## Question: How do I use vGPU beta features?

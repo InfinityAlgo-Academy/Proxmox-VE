@@ -1,3 +1,7 @@
+---
+title: Proxmox VE Enterprise Guide
+---
+
 # Proxmox VE Enterprise Guide
 
 ## Table of Contents

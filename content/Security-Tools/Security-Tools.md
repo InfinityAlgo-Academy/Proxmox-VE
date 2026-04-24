@@ -1,3 +1,7 @@
+---
+title: Security Tools Guide
+---
+
 # Security Tools Guide
 
 ## Passwords

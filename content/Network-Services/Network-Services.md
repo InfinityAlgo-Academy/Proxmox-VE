@@ -1,3 +1,7 @@
+---
+title: Proxmox VE Network Services Guide
+---
+
 # Proxmox VE Network Services Guide
 
 ## Table of Contents

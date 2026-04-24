@@ -1,3 +1,7 @@
+---
+title: How to Use Templates - Complete Beginner's Guide
+---
+
 # How to Use Templates - Complete Beginner's Guide
 
 ## Question: How do I create and use VM templates?

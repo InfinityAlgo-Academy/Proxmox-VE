@@ -1,3 +1,7 @@
+---
+title: Python API Client Guide
+---
+
 # Python API Client Guide
 
 ## Overview

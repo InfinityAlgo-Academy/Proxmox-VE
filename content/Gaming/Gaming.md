@@ -1,12 +1,25 @@
-# Gaming Guide
-
-```bash
-# LinuxGSM (Game Servers)
-# https://linuxgsm.com/
-
-# Minecraft
-pct exec CTID -- wget -O server.jar https://papermc.io/api/v2/projects/paper/1.21/versions/1.21.3/builds/123/builds.jar
-```
+---
+title: Gaming
 ---
 
-[[index|Back to Proxmox VE]]
+# Gaming on Proxmox
+
+## Gaming VMs
+
+### Windows Gaming VM
+
+```bash
+# Create Gaming VM
+qm create 100 --name "gaming" --memory 16384 --cores 8
+qm set 100 --cpu host
+qm set 100 --vga virtio
+qm set 100 --hostpci0 01:00,pcie=1
+```
+
+## GPU Passthrough
+
+- [[PCI-Passthrough]]
+
+## See Also
+
+- [[index|Back to Proxmox VE]]

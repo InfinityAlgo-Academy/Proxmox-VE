@@ -1,3 +1,7 @@
+---
+title: How to Configure Proxmox VE Backup - Complete Beginner's Guide
+---
+
 # How to Configure Proxmox VE Backup - Complete Beginner's Guide
 
 ## Question: How do I set up automatic backups in Proxmox VE?

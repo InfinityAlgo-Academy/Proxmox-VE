@@ -1,3 +1,7 @@
+---
+title: How to Install Proxmox VE - Complete Beginner's Guide
+---
+
 # How to Install Proxmox VE - Complete Beginner's Guide
 
 ## Question: How do I install Proxmox VE on my server?

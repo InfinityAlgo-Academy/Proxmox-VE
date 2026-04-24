@@ -1,3 +1,7 @@
+---
+title: Proxmox VE Performance Guide
+---
+
 # Proxmox VE Performance Guide
 
 ## Table of Contents

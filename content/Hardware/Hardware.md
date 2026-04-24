@@ -1,3 +1,7 @@
+---
+title: Proxmox VE Hardware Guide
+---
+
 # Proxmox VE Hardware Guide
 
 ## Table of Contents

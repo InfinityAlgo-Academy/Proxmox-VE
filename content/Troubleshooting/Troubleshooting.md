@@ -1,3 +1,7 @@
+---
+title: Troubleshooting Complete Guide
+---
+
 # Troubleshooting Complete Guide
 
 ## Table of Contents

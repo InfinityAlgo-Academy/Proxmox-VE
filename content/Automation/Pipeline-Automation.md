@@ -1,3 +1,7 @@
+---
+title: Pipeline Automation Scripts
+---
+
 # Pipeline Automation Scripts
 
 ## Overview

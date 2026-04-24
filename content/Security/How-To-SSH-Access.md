@@ -1,3 +1,7 @@
+---
+title: How to Configure SSH Access - Complete Beginner's Guide
+---
+
 # How to Configure SSH Access - Complete Beginner's Guide
 
 ## Question: How do I access my Proxmox server via SSH?

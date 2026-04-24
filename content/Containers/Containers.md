@@ -1,3 +1,7 @@
+---
+title: LXC Containers - Complete Guide
+---
+
 # LXC Containers - Complete Guide
 
 Linux Containers (LXC) in Proxmox VE provide lightweight, efficient virtualization by sharing the host kernel. This guide covers everything from basics to advanced configurations.

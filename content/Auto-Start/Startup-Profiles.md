@@ -1,3 +1,7 @@
+---
+title: Startup Profiles and Templates
+---
+
 # Startup Profiles and Templates
 
 ## Overview

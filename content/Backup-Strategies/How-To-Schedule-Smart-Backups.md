@@ -1,3 +1,7 @@
+---
+title: How to Schedule Smart Backups - Complete Guide
+---
+
 # How to Schedule Smart Backups - Complete Guide
 
 ## Question: When should I schedule backups?

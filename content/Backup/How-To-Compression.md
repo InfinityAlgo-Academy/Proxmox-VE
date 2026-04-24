@@ -1,3 +1,7 @@
+---
+title: How to Optimize Backup Compression - Complete Guide
+---
+
 # How to Optimize Backup Compression - Complete Guide
 
 ## Question: How do I compress backups to save space?

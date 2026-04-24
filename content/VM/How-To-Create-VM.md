@@ -1,3 +1,7 @@
+---
+title: How to Create a Virtual Machine - Complete Beginner's Guide
+---
+
 # How to Create a Virtual Machine - Complete Beginner's Guide
 
 ## Question: How do I create a VM in Proxmox VE?

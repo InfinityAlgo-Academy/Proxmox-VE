@@ -1,3 +1,7 @@
+---
+title: Startup Delay and Timing Configuration
+---
+
 # Startup Delay and Timing Configuration
 
 ## Overview

@@ -1,3 +1,7 @@
+---
+title: How to Fix BIOS Boot Issues - Complete Troubleshooting Guide
+---
+
 # How to Fix BIOS Boot Issues - Complete Troubleshooting Guide
 
 ## Question: My VM won't boot - how do I fix BIOS issues?

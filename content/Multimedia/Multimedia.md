@@ -1,19 +1,26 @@
-# Multimedia Guide
+---
+title: Multimedia
+---
+
+# Multimedia
 
 ## Media Servers
 
 ### Jellyfin
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/ct/jellyfin.sh)"
 
-### Plex
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/ct/plex.sh)"
+```bash
+# Install Jellyfin
+pct create 200 --ostype debian
+pct exec 200 -- curl -L https://repo.jellyfin.org/install.sh | bash
+```
 
-## Downloaders
+### Emby
 
-### Radarr (Movies)
-### Sonarr (TV)
-### Lidarr (Music)
-### QBittorrent
----
+```bash
+# Install Emby
+pct exec 200 -- wget https://app.emby.media/stabl... && dpkg -i emby-server*.deb
+```
 
-[[index|Back to Proxmox VE]]
+## See Also
+
+- [[index|Back to Proxmox VE]]

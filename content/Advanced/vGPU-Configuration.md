@@ -1,3 +1,7 @@
+---
+title: vGPU Configuration Guide
+---
+
 # vGPU Configuration Guide
 
 ## Overview

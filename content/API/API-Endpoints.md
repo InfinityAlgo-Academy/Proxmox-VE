@@ -1,3 +1,7 @@
+---
+title: API Endpoints Complete Reference
+---
+
 # API Endpoints Complete Reference
 
 ## Overview

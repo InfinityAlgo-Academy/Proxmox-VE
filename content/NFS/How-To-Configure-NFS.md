@@ -1,3 +1,7 @@
+---
+title: How to Configure NFS Storage - Complete Beginner's Guide
+---
+
 # How to Configure NFS Storage - Complete Beginner's Guide
 
 ## Question: How do I set up NFS storage?

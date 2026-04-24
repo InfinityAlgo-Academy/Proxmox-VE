@@ -1,3 +1,7 @@
+---
+title: Ceph Storage Configuration
+---
+
 # Ceph Storage Configuration
 
 ## Overview

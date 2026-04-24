@@ -1,3 +1,7 @@
+---
+title: Proxmox VE Updates Guide
+---
+
 # Proxmox VE Updates Guide
 
 ## Table of Contents

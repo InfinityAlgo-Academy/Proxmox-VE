@@ -1,3 +1,7 @@
+---
+title: Docker in Proxmox Guide
+---
+
 # Docker in Proxmox Guide
 
 ## Table of Contents

@@ -1,3 +1,7 @@
+---
+title: How to Configure Cluster - Complete Beginner's Guide
+---
+
 # How to Configure Cluster - Complete Beginner's Guide
 
 ## Question: How do I set up a Proxmox cluster?

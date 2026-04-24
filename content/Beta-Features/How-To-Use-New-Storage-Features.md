@@ -1,3 +1,7 @@
+---
+title: How to Use New Storage Features - Complete Guide
+---
+
 # How to Use New Storage Features - Complete Guide
 
 ## Question: How do I test new storage features?

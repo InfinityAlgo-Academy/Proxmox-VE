@@ -1,3 +1,7 @@
+---
+title: Terraform Provider Guide
+---
+
 # Terraform Provider Guide
 
 ## Overview

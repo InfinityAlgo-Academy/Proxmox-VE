@@ -1,3 +1,7 @@
+---
+title: Proxmox VE Examples - Practical Setups
+---
+
 # Proxmox VE Examples - Practical Setups
 
 ## Table of Contents

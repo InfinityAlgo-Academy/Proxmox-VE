@@ -1,3 +1,7 @@
+---
+title: API Authentication Complete Guide
+---
+
 # API Authentication Complete Guide
 
 ## Overview

@@ -1,3 +1,7 @@
+---
+title: Go API Client Guide
+---
+
 # Go API Client Guide
 
 ## Overview

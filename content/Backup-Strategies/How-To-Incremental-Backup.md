@@ -1,3 +1,7 @@
+---
+title: How to Implement Incremental Backups - Complete Guide
+---
+
 # How to Implement Incremental Backups - Complete Guide
 
 ## Question: How do I save backup space with incremental backups?

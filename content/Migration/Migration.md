@@ -1,3 +1,7 @@
+---
+title: Proxmox VE Migration Guide
+---
+
 # Proxmox VE Migration Guide
 
 ## Table of Contents

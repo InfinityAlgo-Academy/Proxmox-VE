@@ -1,3 +1,7 @@
+---
+title: Backup Strategies Guide
+---
+
 # Backup Strategies Guide
 
 ## Types of Backups

@@ -1,3 +1,7 @@
+---
+title: How to Configure Storage - Complete Beginner's Guide
+---
+
 # How to Configure Storage - Complete Beginner's Guide
 
 ## Question: How do I add storage in Proxmox VE?

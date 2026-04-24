@@ -1,3 +1,7 @@
+---
+title: How to Perform Regular Maintenance - Complete Guide
+---
+
 # How to Perform Regular Maintenance - Complete Guide
 
 ## Question: How do I maintain Proxmox regularly?

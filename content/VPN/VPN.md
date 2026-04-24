@@ -1,3 +1,7 @@
+---
+title: VPN Guide
+---
+
 # VPN Guide
 ```bash
 # WireGuard: bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/ct/wireguard.sh)"

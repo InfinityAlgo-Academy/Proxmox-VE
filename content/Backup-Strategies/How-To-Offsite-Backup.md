@@ -1,3 +1,7 @@
+---
+title: How to Set Up Offsite Backups - Complete Guide
+---
+
 # How to Set Up Offsite Backups - Complete Guide
 
 ## Question: How do I keep backups offsite for disaster recovery?

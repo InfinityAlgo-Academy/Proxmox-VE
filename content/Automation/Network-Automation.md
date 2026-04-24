@@ -1,3 +1,7 @@
+---
+title: Network Automation Scripts
+---
+
 # Network Automation Scripts
 
 ## Overview

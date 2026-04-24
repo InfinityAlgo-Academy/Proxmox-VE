@@ -1,3 +1,7 @@
+---
+title: How to Test New Network Features - Complete Guide
+---
+
 # How to Test New Network Features - Complete Guide
 
 ## Question: How do I use new network betas?

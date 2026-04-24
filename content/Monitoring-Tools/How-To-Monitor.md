@@ -1,3 +1,7 @@
+---
+title: How to Monitor Proxmox - Complete Beginner's Guide
+---
+
 # How to Monitor Proxmox - Complete Beginner's Guide
 
 ## Question: How do I monitor my Proxmox server?

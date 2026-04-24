@@ -1,13 +1,24 @@
-# Productivity Guide
-
-## OnlyOffice
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/ct/onlyoffice.sh)"
-
-## CryptPad
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/ct/cryptpad.sh)"
-
-## Paperless-NGX
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/ct/paperless.sh)"
+---
+title: Productivity
 ---
 
-[[index|Back to Proxmox VE]]
+# Productivity
+
+## Productivity Tools
+
+### OnlyOffice
+
+```bash
+# Install OnlyOffice
+pct exec 200 -- wget https://download.onlyoffice.com/install/...
+```
+
+### Collab
+
+- Nextcloud
+- CryptPad
+- LibreOffice
+
+## See Also
+
+- [[index|Back to Proxmox VE]]

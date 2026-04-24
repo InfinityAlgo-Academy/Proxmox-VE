@@ -1,3 +1,7 @@
+---
+title: How to Update BIOS/UEFI Firmware - Complete Guide
+---
+
 # How to Update BIOS/UEFI Firmware - Complete Guide
 
 ## Question: How do I update VM BIOS firmware?

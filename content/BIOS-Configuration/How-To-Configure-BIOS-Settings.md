@@ -1,3 +1,7 @@
+---
+title: How to Configure BIOS Settings - Complete Beginner's Guide
+---
+
 # How to Configure BIOS Settings - Complete Beginner's Guide
 
 ## Question: How do I configure BIOS for Proxmox VMs?

@@ -1,3 +1,7 @@
+---
+title: How to Test New VM Features - Complete Guide
+---
+
 # How to Test New VM Features - Complete Guide
 
 ## Question: How do I test new VM features safely?

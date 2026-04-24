@@ -1,3 +1,7 @@
+---
+title: OnBoot Option Deep Dive
+---
+
 # OnBoot Option Deep Dive
 
 ## Overview

@@ -1,3 +1,7 @@
+---
+title: Proxmox VE Best Practices Guide
+---
+
 # Proxmox VE Best Practices Guide
 
 ## Table of Contents

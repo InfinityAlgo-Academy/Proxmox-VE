@@ -1,3 +1,7 @@
+---
+title: High Availability Deep Dive
+---
+
 # High Availability Deep Dive
 
 ## Overview

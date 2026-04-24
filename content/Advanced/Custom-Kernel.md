@@ -1,3 +1,7 @@
+---
+title: Custom Kernel Configuration
+---
+
 # Custom Kernel Configuration
 
 ## Overview

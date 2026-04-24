@@ -1,3 +1,7 @@
+---
+title: Proxmox VE Integrations Guide
+---
+
 # Proxmox VE Integrations Guide
 
 ## Table of Contents

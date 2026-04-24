@@ -1,3 +1,7 @@
+---
+title: How to Enable Secure Boot - Complete Guide
+---
+
 # How to Enable Secure Boot - Complete Guide
 
 ## Question: How do I enable secure boot in Proxmox VMs?

@@ -1,3 +1,7 @@
+---
+title: How to Install Docker in Proxmox VE - Complete Beginner's Guide
+---
+
 # How to Install Docker in Proxmox VE - Complete Beginner's Guide
 
 ## Question: How do I install Docker in Proxmox?

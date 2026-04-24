@@ -1,3 +1,7 @@
+---
+title: How to Enable Beta Features - Complete Guide
+---
+
 # How to Enable Beta Features - Complete Guide
 
 ## Question: How do I enable and test beta features in Proxmox?

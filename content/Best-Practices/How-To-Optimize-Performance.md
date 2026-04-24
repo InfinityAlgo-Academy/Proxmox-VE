@@ -1,3 +1,7 @@
+---
+title: How to Optimize Performance - Complete Guide
+---
+
 # How to Optimize Performance - Complete Guide
 
 ## Question: How do I optimize Proxmox performance?

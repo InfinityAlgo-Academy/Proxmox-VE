@@ -1,19 +1,23 @@
-# Virtual Appliances Guide
+---
+title: Virtual Appliances
+---
 
-## Pre-built VMs
+# Virtual Appliances
 
-- pfSense
-- OPNsense  
-- VyOS
-- FreeNAS
-- Rockstor
+## Common Appliances
 
-## Quick Deploy
+- pfSense - Firewall
+- OPNsense - Firewall
+- UniFi - Network controller
+- TrueNAS - Storage
+
+## Deployment
 
 ```bash
 # Import OVA
-qm importovf /path/to/file.ova local
+qm importovf 100 /path/to/appliance.ova local-lvm
 ```
----
 
-[[index|Back to Proxmox VE]]
+## See Also
+
+- [[index|Back to Proxmox VE]]

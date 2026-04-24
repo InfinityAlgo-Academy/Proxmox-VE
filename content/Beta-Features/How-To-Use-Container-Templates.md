@@ -1,3 +1,7 @@
+---
+title: How to Use Container Templates - Complete Guide
+---
+
 # How to Use Container Templates - Complete Guide
 
 ## Question: How do I use new container templates?

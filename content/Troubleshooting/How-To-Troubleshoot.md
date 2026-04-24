@@ -1,3 +1,7 @@
+---
+title: How to Troubleshoot Common Issues - Complete Beginner's Guide
+---
+
 # How to Troubleshoot Common Issues - Complete Beginner's Guide
 
 ## Question: How do I fix common Proxmox problems?

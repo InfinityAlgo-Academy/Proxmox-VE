@@ -1,3 +1,7 @@
+---
+title: How to Back Up Cluster - Complete Guide
+---
+
 # How to Back Up Cluster - Complete Guide
 
 ## Question: How do I back up the entire Proxmox cluster?

@@ -1,3 +1,7 @@
+---
+title: VM Boot Order Configuration Guide
+---
+
 # VM Boot Order Configuration Guide
 
 ## Overview

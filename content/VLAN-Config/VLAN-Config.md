@@ -1,3 +1,7 @@
+---
+title: VLAN Configuration
+---
+
 # VLAN Configuration
 ---
 

@@ -1,3 +1,7 @@
+---
+title: How to Exclude Files from Backup - Complete Guide
+---
+
 # How to Exclude Files from Backup - Complete Guide
 
 ## Question: How do I exclude certain files or VMs from backup?

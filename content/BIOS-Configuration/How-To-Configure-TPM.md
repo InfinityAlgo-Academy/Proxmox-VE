@@ -1,3 +1,7 @@
+---
+title: How to Configure TPM for VMs - Complete Guide
+---
+
 # How to Configure TPM for VMs - Complete Guide
 
 ## Question: How do I add TPM to my VM?

@@ -1,3 +1,7 @@
+---
+title: How to Secure Proxmox VE After Installation - Complete Guide
+---
+
 # How to Secure Proxmox VE After Installation - Complete Guide
 
 ## Question: How do I secure my Proxmox server after install?

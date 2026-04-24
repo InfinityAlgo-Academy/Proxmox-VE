@@ -1,3 +1,7 @@
+---
+title: How to Set Up User Permissions - Complete Guide
+---
+
 # How to Set Up User Permissions - Complete Guide
 
 ## Question: How do I manage users properly?

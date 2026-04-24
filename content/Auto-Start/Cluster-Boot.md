@@ -1,3 +1,7 @@
+---
+title: Cluster Boot Management
+---
+
 # Cluster Boot Management
 
 ## Overview

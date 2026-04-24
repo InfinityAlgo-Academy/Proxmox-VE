@@ -1,3 +1,7 @@
+---
+title: Access Auditing and Compliance
+---
+
 # Access Auditing and Compliance
 
 ## Overview

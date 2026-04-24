@@ -1,3 +1,7 @@
+---
+title: Proxmox VE Templates Guide
+---
+
 # Proxmox VE Templates Guide
 
 ## Table of Contents

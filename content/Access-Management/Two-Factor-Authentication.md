@@ -1,3 +1,7 @@
+---
+title: Two-Factor Authentication (2FA) in Proxmox VE
+---
+
 # Two-Factor Authentication (2FA) in Proxmox VE
 
 ## Overview

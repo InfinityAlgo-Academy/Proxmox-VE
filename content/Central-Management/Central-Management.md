@@ -1,3 +1,7 @@
+---
+title: Central Management Guide
+---
+
 # Central Management Guide
 
 ## Proxmox VE GUI

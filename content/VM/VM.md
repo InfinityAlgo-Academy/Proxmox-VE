@@ -1,3 +1,7 @@
+---
+title: Virtual Machines (VM) Complete Guide
+---
+
 # Virtual Machines (VM) Complete Guide
 
 KVM (Kernel-Based Virtual Machine) in Proxmox VE provides full virtualization for running multiple operating systems with complete hardware isolation.

@@ -1,3 +1,7 @@
+---
+title: Proxmox VE Community Scripts - Complete Guide
+---
+
 # Proxmox VE Community Scripts - Complete Guide
 
 **Official Website**: https://community-scripts.org/  

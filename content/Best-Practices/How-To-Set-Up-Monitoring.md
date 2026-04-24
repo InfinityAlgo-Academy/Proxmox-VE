@@ -1,3 +1,7 @@
+---
+title: How to Set Up Monitoring - Complete Guide
+---
+
 # How to Set Up Monitoring - Complete Guide
 
 ## Question: How do I monitor Proxmox properly?

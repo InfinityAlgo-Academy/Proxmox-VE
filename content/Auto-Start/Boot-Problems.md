@@ -1,3 +1,7 @@
+---
+title: Boot Problems Troubleshooting Guide
+---
+
 # Boot Problems Troubleshooting Guide
 
 ## Overview

@@ -1,3 +1,7 @@
+---
+title: How to Schedule Automatic Backups - Complete Guide
+---
+
 # How to Schedule Automatic Backups - Complete Guide
 
 ## Question: How do I schedule automatic backups in Proxmox VE?

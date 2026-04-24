@@ -1,3 +1,7 @@
+---
+title: Proxmox VE Beta Features Guide
+---
+
 # Proxmox VE Beta Features Guide
 
 ## Table of Contents

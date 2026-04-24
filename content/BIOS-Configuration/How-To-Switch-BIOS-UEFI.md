@@ -1,3 +1,7 @@
+---
+title: How to Switch from BIOS to UEFI - Complete Guide
+---
+
 # How to Switch from BIOS to UEFI - Complete Guide
 
 ## Question: How do I switch my VM from BIOS to UEFI?

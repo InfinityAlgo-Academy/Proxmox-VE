@@ -1,3 +1,7 @@
+---
+title: Automation Guide
+---
+
 # Automation Guide
 
 ## Cron Jobs

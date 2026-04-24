@@ -1,3 +1,7 @@
+---
+title: How to Configure Boot Order - Complete Guide
+---
+
 # How to Configure Boot Order - Complete Guide
 
 ## Question: How do I set the boot order for my VM?

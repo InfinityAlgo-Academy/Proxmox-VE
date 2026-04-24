@@ -1,3 +1,7 @@
+---
+title: How to Create a Container (LXC) - Complete Beginner's Guide
+---
+
 # How to Create a Container (LXC) - Complete Beginner's Guide
 
 ## Question: How do I create a container in Proxmox VE?

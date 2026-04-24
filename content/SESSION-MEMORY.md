@@ -1,3 +1,7 @@
+---
+title: Proxmox VE Knowledge Base - Session Memory
+---
+
 # Proxmox VE Knowledge Base - Session Memory
 
 > Last Updated: 2025-04-24

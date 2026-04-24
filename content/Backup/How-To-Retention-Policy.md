@@ -1,3 +1,7 @@
+---
+title: How to Set Backup Retention - Complete Guide
+---
+
 # How to Set Backup Retention - Complete Guide
 
 ## Question: How long should I keep backups?

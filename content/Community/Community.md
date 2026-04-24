@@ -1,3 +1,7 @@
+---
+title: Proxmox Community Scripts & Guides
+---
+
 # Proxmox Community Scripts & Guides
 
 > **For complete community-scripts documentation, see**: [[Community-Scripts]]

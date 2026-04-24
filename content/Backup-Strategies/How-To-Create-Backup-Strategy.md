@@ -1,3 +1,7 @@
+---
+title: How to Create a Backup Strategy - Complete Beginner's Guide
+---
+
 # How to Create a Backup Strategy - Complete Beginner's Guide
 
 ## Question: How do I create an effective backup strategy?

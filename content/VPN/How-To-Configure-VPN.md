@@ -1,3 +1,7 @@
+---
+title: How to Set Up VPN - Complete Beginner's Guide
+---
+
 # How to Set Up VPN - Complete Beginner's Guide
 
 ## Question: How do I set up VPN access?

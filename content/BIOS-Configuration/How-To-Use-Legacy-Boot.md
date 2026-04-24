@@ -1,3 +1,7 @@
+---
+title: How to Configure Legacy Boot - Complete Guide
+---
+
 # How to Configure Legacy Boot - Complete Guide
 
 ## Question: How do I use legacy BIOS boot mode?

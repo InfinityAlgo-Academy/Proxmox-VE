@@ -1,3 +1,7 @@
+---
+title: Proxmox VE Installation
+---
+
 # Proxmox VE Installation
 
 ## Installation Methods

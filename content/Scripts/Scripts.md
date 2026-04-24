@@ -1,3 +1,7 @@
+---
+title: Proxmox VE Scripts & Automation
+---
+
 # Proxmox VE Scripts & Automation
 
 ## Table of Contents

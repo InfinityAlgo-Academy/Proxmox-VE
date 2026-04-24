@@ -1,3 +1,7 @@
+---
+title: Proxmox VE Advanced Guide
+---
+
 # Proxmox VE Advanced Guide
 
 ## Table of Contents

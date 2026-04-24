@@ -1,3 +1,7 @@
+---
+title: How to Handle Backup Failures - Complete Guide
+---
+
 # How to Handle Backup Failures - Complete Guide
 
 ## Question: My backup failed - how do I fix it?

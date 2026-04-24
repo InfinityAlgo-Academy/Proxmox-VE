@@ -1,3 +1,7 @@
+---
+title: How to Restore from Backup - Complete Beginner's Guide
+---
+
 # How to Restore from Backup - Complete Beginner's Guide
 
 ## Question: How do I restore a VM or container from backup?

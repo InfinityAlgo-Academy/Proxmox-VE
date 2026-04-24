@@ -1,3 +1,7 @@
+---
+title: Single Sign-On (SSO) with Proxmox VE
+---
+
 # Single Sign-On (SSO) with Proxmox VE
 
 ## Overview

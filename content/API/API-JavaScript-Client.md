@@ -1,3 +1,7 @@
+---
+title: JavaScript/Node.js API Client
+---
+
 # JavaScript/Node.js API Client
 
 ## Overview

@@ -1,3 +1,7 @@
+---
+title: How to Use BIOS with Different Operating Systems - Complete Guide
+---
+
 # How to Use BIOS with Different Operating Systems - Complete Guide
 
 ## Question: Which BIOS settings for different OS?

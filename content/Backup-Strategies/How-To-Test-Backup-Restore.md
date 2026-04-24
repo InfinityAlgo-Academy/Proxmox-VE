@@ -1,3 +1,7 @@
+---
+title: How to Test Backup and Restore - Complete Guide
+---
+
 # How to Test Backup and Restore - Complete Guide
 
 ## Question: How do I ensure my backups actually work?

@@ -1,3 +1,7 @@
+---
+title: API Tokens in Proxmox VE
+---
+
 # API Tokens in Proxmox VE
 
 ## Overview

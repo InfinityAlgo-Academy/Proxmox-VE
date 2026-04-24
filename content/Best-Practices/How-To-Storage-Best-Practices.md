@@ -1,3 +1,7 @@
+---
+title: How to Configure Storage Best Practices - Complete Guide
+---
+
 # How to Configure Storage Best Practices - Complete Guide
 
 ## Question: How do I configure storage properly?

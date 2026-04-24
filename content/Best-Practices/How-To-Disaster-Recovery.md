@@ -1,3 +1,7 @@
+---
+title: How to Prepare for Disaster Recovery - Complete Guide
+---
+
 # How to Prepare for Disaster Recovery - Complete Guide
 
 ## Question: How do I prepare for disaster recovery?

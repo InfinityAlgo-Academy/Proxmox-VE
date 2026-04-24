@@ -1,3 +1,7 @@
+---
+title: Development Tools Guide
+---
+
 # Development Tools Guide
 
 ## Code Hosting
