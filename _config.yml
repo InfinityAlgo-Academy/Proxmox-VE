@@ -1,0 +1,16 @@
+include:
+  - public
+  - quartz
+  - package.json
+  - quartz.config.ts
+  - quartz.layout.ts
+
+exclude:
+  - docs
+  - .github
+  - "*.md"
+  - node_modules
+  - "!**/public/**"
+
+keep_files:
+  - public
