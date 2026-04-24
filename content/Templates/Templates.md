@@ -485,3 +485,8 @@ qm template 100
 - [[Containers]] - Container management
 - [[VM]] - VM management
 - [[HomeLab]] - Home lab setup
+---
+
+[[index|Back to Proxmox VE]]
+
+[[index|Back to Proxmox VE]]

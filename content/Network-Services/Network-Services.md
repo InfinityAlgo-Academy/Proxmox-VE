@@ -186,3 +186,8 @@ ufw enable
 
 - [[Proxmox-VE]] - Main documentation
 - [[Networking]] - Network configuration
+---
+
+[[index|Back to Proxmox VE]]
+
+[[index|Back to Proxmox VE]]

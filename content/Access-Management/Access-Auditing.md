@@ -194,3 +194,8 @@ For financial environments:
 - [[Two-Factor Authentication]]
 - [[Access Control Lists]]
 - [[Security Best Practices]]
+---
+
+[[index|Back to Proxmox VE]]
+
+[[index|Back to Proxmox VE]]

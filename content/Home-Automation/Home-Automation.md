@@ -23,3 +23,8 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/Proxmo
 ## Links
 
 - [[HomeLab]]
+---
+
+[[index|Back to Proxmox VE]]
+
+[[index|Back to Proxmox VE]]

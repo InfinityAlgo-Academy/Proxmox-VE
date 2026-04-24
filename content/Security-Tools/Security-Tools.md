@@ -17,3 +17,8 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/Proxmo
 
 ### CrowdSec
 bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/ct/crowdsec.sh)"
+---
+
+[[index|Back to Proxmox VE]]
+
+[[index|Back to Proxmox VE]]

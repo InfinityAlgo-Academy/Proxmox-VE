@@ -192,3 +192,8 @@ ceph health detail
 - [[Advanced]]
 - [[Storage]]
 - [[ZFS-Tuning]]
+---
+
+[[index|Back to Proxmox VE]]
+
+[[index|Back to Proxmox VE]]

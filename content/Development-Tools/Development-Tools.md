@@ -19,3 +19,8 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/Proxmo
 
 ### Portainer
 bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/ct/portainer.sh)"
+---
+
+[[index|Back to Proxmox VE]]
+
+[[index|Back to Proxmox VE]]

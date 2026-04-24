@@ -78,3 +78,8 @@ qm config 100 > /backup/vm100-bios-config.txt
 - [[Updates]]
 - [[VM]]
 - [[Proxmox-VE]]
+---
+
+[[index|Back to Proxmox VE]]
+
+[[index|Back to Proxmox VE]]

@@ -139,3 +139,8 @@ ethtool -C eth0 rx-usecs 100 tx-usecs 100
 - [[Proxmox-VE]] - Main documentation
 - [[VM]] - VM management
 - [[Advanced]] - Advanced configuration
+---
+
+[[index|Back to Proxmox VE]]
+
+[[index|Back to Proxmox VE]]

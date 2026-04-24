@@ -53,3 +53,8 @@ curl -H "Authorization: PVEAPIToken=admin@example.com=mytoken" \
 ## Links
 
 - [[Security]]
+---
+
+[[index|Back to Proxmox VE]]
+
+[[index|Back to Proxmox VE]]

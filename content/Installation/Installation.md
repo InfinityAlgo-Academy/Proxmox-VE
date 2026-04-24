@@ -114,3 +114,8 @@ See [[Troubleshooting]] for common installation issues.
 - [[Storage]] - Disk configuration
 - [[Networking]] - Network setup
 - [[Troubleshooting]] - Installation issues
+---
+
+[[index|Back to Proxmox VE]]
+
+[[index|Back to Proxmox VE]]

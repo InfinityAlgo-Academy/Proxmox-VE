@@ -129,3 +129,8 @@ echo "VM $VMID created"
 - [[Auto-Start]]
 - [[Auto-Start-Configuration]]
 - [[Templates]]
+---
+
+[[index|Back to Proxmox VE]]
+
+[[index|Back to Proxmox VE]]

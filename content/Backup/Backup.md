@@ -160,3 +160,8 @@ qmrestore /mnt/backup/dump/vzdump-qemu-102-2024.tar.gz 102
 - [[VM]] - VM backup
 - [[Containers]] - Container backup
 - [[Security]] - Backup encryption
+---
+
+[[index|Back to Proxmox VE]]
+
+[[index|Back to Proxmox VE]]

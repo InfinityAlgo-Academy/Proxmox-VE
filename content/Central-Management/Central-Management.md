@@ -22,3 +22,8 @@ Use single API endpoint to manage all nodes.
 ```bash
 # Sync config across nodes
 rsync -av /etc/pve/ user@pve2:/etc/pve/
+---
+
+[[index|Back to Proxmox VE]]
+
+[[index|Back to Proxmox VE]]

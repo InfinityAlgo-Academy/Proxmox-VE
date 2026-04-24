@@ -55,3 +55,8 @@ apt install proxmox-ve/stable
 - [[Beta-Features]]
 - [[Proxmox-VE]]
 - [[Updates]]
+---
+
+[[index|Back to Proxmox VE]]
+
+[[index|Back to Proxmox VE]]

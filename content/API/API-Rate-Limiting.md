@@ -102,3 +102,8 @@ def cached_request(url, ttl=60):
 
 - [[API]]
 - [[API-Authentication]]
+---
+
+[[index|Back to Proxmox VE]]
+
+[[index|Back to Proxmox VE]]

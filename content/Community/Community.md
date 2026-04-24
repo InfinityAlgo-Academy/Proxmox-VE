@@ -752,3 +752,8 @@ echo "Node exporter started on port 9100"
 - [[VM]] - VM management
 - [[Containers]] - Container management
 - [[HomeLab]] - Home lab setup
+---
+
+[[index|Back to Proxmox VE]]
+
+[[index|Back to Proxmox VE]]

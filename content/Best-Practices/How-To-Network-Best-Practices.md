@@ -60,3 +60,8 @@ systemd-resolve --set-dns=8.8.8.8 --interface=enp1s0
 - [[Best-Practices]]
 - [[Networking]]
 - [[Proxmox-VE]]
+---
+
+[[index|Back to Proxmox VE]]
+
+[[index|Back to Proxmox VE]]

@@ -169,3 +169,8 @@ journalctl -u pveproxy -n 50 | grep saml
 - [[User Management]]
 - [[Roles and Permissions]]
 - [[Two-Factor Authentication]]
+---
+
+[[index|Back to Proxmox VE]]
+
+[[index|Back to Proxmox VE]]

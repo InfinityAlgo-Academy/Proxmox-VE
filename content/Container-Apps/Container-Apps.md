@@ -61,3 +61,8 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/Proxmo
 ## Links
 
 - [[Community-Scripts]] - Full guide
+---
+
+[[index|Back to Proxmox VE]]
+
+[[index|Back to Proxmox VE]]

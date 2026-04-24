@@ -472,3 +472,8 @@ cat /etc/network/interfaces > network-config.txt
 - [[Security]] - Security hardening
 - [[Installation]] - Installation guide
 - [[Troubleshooting]] - Issues
+---
+
+[[index|Back to Proxmox VE]]
+
+[[index|Back to Proxmox VE]]

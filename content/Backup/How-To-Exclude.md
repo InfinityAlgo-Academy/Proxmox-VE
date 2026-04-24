@@ -79,3 +79,8 @@ vzdump --mode snapshot --vmid 100 --exclude-media
 
 - [[Backup]]
 - [[How-To-Configure-Backup]]
+---
+
+[[index|Back to Proxmox VE]]
+
+[[index|Back to Proxmox VE]]

@@ -14,3 +14,8 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/Proxmo
 ### Sonarr (TV)
 ### Lidarr (Music)
 ### QBittorrent
+---
+
+[[index|Back to Proxmox VE]]
+
+[[index|Back to Proxmox VE]]

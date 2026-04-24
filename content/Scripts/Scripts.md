@@ -1048,3 +1048,8 @@ curl -s -X POST -H "Authorization: PVEAPIToken=${USER}=${TOKEN}" \
 - [[Storage]] - Storage management
 - [[Backup]] - Backup configuration
 - [[Troubleshooting]] - Script debugging
+---
+
+[[index|Back to Proxmox VE]]
+
+[[index|Back to Proxmox VE]]

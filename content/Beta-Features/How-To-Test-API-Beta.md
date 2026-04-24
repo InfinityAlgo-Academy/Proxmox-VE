@@ -52,3 +52,8 @@ curl -k -H "Authorization: PVEAPIToken=root@pam=test" \
 - [[Beta-Features]]
 - [[API]]
 - [[Proxmox-VE]]
+---
+
+[[index|Back to Proxmox VE]]
+
+[[index|Back to Proxmox VE]]

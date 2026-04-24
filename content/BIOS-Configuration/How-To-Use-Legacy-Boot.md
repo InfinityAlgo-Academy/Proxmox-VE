@@ -88,3 +88,8 @@ VM Starts → BIOS POST → Boot Order Check → Boot Device Found → Load OS
 - [[Boot-Configuration]]
 - [[VM]]
 - [[Proxmox-VE]]
+---
+
+[[index|Back to Proxmox VE]]
+
+[[index|Back to Proxmox VE]]

@@ -95,3 +95,8 @@ qm set 100 --shutdown-timeout 120
 
 - [[Auto-Start]]
 - [[VM-Configuration]]
+---
+
+[[index|Back to Proxmox VE]]
+
+[[index|Back to Proxmox VE]]

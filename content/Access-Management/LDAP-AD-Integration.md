@@ -189,3 +189,8 @@ Okta integration requires SAML or OAuth configuration.
 - [[Roles and Permissions]]
 - [[Groups and Groups Management]]
 - [[Single Sign-On]]
+---
+
+[[index|Back to Proxmox VE]]
+
+[[index|Back to Proxmox VE]]

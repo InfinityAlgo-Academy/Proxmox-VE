@@ -332,3 +332,8 @@ proxmox = proxmoxer.ProxmoxAPI(
 - [[API]]
 - [[API-Authentication]]
 - [[Scripts]]
+---
+
+[[index|Back to Proxmox VE]]
+
+[[index|Back to Proxmox VE]]

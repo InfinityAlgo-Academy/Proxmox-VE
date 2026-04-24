@@ -123,3 +123,8 @@ vzdump restore
 - [[Proxmox-VE]] - Main documentation
 - [[VM]] - VM management
 - [[Cluster]] - Clustering
+---
+
+[[index|Back to Proxmox VE]]
+
+[[index|Back to Proxmox VE]]

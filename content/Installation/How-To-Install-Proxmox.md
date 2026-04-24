@@ -67,3 +67,8 @@ Install and configure DHCP/TFTP server on your network.
 
 - [[Proxmox-VE]]
 - [[How-To-Initial-Configuration]]
+---
+
+[[index|Back to Proxmox VE]]
+
+[[index|Back to Proxmox VE]]

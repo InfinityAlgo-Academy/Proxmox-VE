@@ -13,3 +13,8 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/Proxmo
 # InfluxDB
 bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/ct/influxdb.sh)"
 ```
+---
+
+[[index|Back to Proxmox VE]]
+
+[[index|Back to Proxmox VE]]

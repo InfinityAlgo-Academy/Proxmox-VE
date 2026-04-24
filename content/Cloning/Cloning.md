@@ -9,3 +9,8 @@ qm clone 100 101 --full --name clone
 ```bash
 qm clone 100 102 --linked --name linked
 ```
+---
+
+[[index|Back to Proxmox VE]]
+
+[[index|Back to Proxmox VE]]

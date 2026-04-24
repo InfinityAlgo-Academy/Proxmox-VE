@@ -56,3 +56,8 @@ Access at: http://your-ip:9000
 - [[Docker]]
 - [[Proxmox-VE]]
 - [[Containers]]
+---
+
+[[index|Back to Proxmox VE]]
+
+[[index|Back to Proxmox VE]]

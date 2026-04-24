@@ -118,3 +118,8 @@ apt install proxmox-backup-server
 - [[Proxmox-VE]] - Main documentation
 - [[Cluster]] - Clustering
 - [[Backup]] - Backup
+---
+
+[[index|Back to Proxmox VE]]
+
+[[index|Back to Proxmox VE]]

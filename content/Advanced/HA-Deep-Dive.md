@@ -82,3 +82,8 @@ ha-manager crm modify vm:100 --priority 100
 - [[Advanced]]
 - [[Cluster]]
 - [[High-Availability]]
+---
+
+[[index|Back to Proxmox VE]]
+
+[[index|Back to Proxmox VE]]

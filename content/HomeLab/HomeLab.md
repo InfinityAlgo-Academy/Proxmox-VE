@@ -619,3 +619,8 @@ pct exec <ctid> -- bash -c "apt update && apt upgrade -y"
 - [[Networking]] - Network setup
 - [[Security]] - Security hardening
 - [[Backup]] - Backup strategy
+---
+
+[[index|Back to Proxmox VE]]
+
+[[index|Back to Proxmox VE]]

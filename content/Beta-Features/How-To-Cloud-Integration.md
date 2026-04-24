@@ -47,3 +47,8 @@ qm set 100 --ciuser admin --cipassword changeme
 - [[Beta-Features]]
 - [[Cloud-Init]]
 - [[Proxmox-VE]]
+---
+
+[[index|Back to Proxmox VE]]
+
+[[index|Back to Proxmox VE]]

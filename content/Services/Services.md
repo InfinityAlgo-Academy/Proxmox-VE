@@ -129,3 +129,8 @@ systemctl enable lxd
 ## Links
 
 - [[Proxmox-VE]] - Main documentation
+---
+
+[[index|Back to Proxmox VE]]
+
+[[index|Back to Proxmox VE]]

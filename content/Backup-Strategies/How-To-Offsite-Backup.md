@@ -95,3 +95,8 @@ rclone sync /var/lib/vz/dump remote:bucket --progress
 - [[Backup]]
 - [[Disaster-Recovery]]
 - [[Proxmox-VE]]
+---
+
+[[index|Back to Proxmox VE]]
+
+[[index|Back to Proxmox VE]]

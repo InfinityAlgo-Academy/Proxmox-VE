@@ -81,3 +81,8 @@ fi
 - [[Backup]]
 - [[How-To-Use-PBS]]
 - [[Proxmox-VE]]
+---
+
+[[index|Back to Proxmox VE]]
+
+[[index|Back to Proxmox VE]]

@@ -9,3 +9,8 @@
 - Grafana dashboards
 - pvesm status
 - qm list
+---
+
+[[index|Back to Proxmox VE]]
+
+[[index|Back to Proxmox VE]]

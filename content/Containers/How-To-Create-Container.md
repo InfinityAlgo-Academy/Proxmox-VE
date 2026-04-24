@@ -41,3 +41,8 @@ pct create 200 local:vztmpl/debian-12.tar.gz --rootfs local:8 --memory 2048 --co
 
 - [[Containers]]
 - [[Proxmox-VE]]
+---
+
+[[index|Back to Proxmox VE]]
+
+[[index|Back to Proxmox VE]]

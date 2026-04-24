@@ -85,3 +85,8 @@ ssh cloud-server
 
 - [[Proxmox-VE]] - Main documentation
 - [[Backup]] - Backup configuration
+---
+
+[[index|Back to Proxmox VE]]
+
+[[index|Back to Proxmox VE]]

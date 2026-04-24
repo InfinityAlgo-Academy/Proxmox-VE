@@ -276,3 +276,8 @@ destroy-vm:
 - [[Proxmox-VE]] - Main documentation
 - [[API]] - API documentation
 - [[Scripts]] - Automation scripts
+---
+
+[[index|Back to Proxmox VE]]
+
+[[index|Back to Proxmox VE]]

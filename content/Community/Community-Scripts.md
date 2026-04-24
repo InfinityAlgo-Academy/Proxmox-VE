@@ -795,3 +795,8 @@ set -e
 - [[Scripts]] - Custom scripts
 - [[Containers]] - LXC setup
 - [[VM]] - VM setup
+---
+
+[[index|Back to Proxmox VE]]
+
+[[index|Back to Proxmox VE]]

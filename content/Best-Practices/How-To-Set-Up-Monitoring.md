@@ -64,3 +64,8 @@ apt install grafana
 - [[Monitoring-Tools]]
 - [[Metrics]]
 - [[Proxmox-VE]]
+---
+
+[[index|Back to Proxmox VE]]
+
+[[index|Back to Proxmox VE]]

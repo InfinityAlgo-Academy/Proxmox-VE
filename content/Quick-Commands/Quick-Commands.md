@@ -408,3 +408,8 @@ pvesh set /nodes/pve1/qemu/100/config --memory 4096
 - [[Proxmox-VE]] - Main documentation
 - [[VM]] - VM management
 - [[Containers]] - Container management
+---
+
+[[index|Back to Proxmox VE]]
+
+[[index|Back to Proxmox VE]]

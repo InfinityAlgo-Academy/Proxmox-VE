@@ -45,3 +45,8 @@ zfs set checksum=sha256 pool1
 - [[Storage]]
 - [[LVM-Thin]]
 - [[Proxmox-VE]]
+---
+
+[[index|Back to Proxmox VE]]
+
+[[index|Back to Proxmox VE]]

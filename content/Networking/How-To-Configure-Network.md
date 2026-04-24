@@ -47,3 +47,8 @@ iface vmbr0 inet static
 
 - [[Networking]]
 - [[Proxmox-VE]]
+---
+
+[[index|Back to Proxmox VE]]
+
+[[index|Back to Proxmox VE]]

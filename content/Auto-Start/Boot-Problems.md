@@ -199,3 +199,8 @@ qm set 100 --bios seabios
 - [[VM-Boot-Order]]
 - [[Troubleshooting]]
 - [[Storage-Configuration]]
+---
+
+[[index|Back to Proxmox VE]]
+
+[[index|Back to Proxmox VE]]

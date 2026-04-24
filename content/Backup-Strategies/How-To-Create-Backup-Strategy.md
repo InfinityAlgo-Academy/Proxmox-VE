@@ -83,3 +83,8 @@ rclone sync /var/lib/vz/dump/ cloud:backup-bucket
 - [[Backup]]
 - [[How-To-Configure-Backup]]
 - [[Proxmox-VE]]
+---
+
+[[index|Back to Proxmox VE]]
+
+[[index|Back to Proxmox VE]]

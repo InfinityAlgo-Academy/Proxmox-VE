@@ -149,3 +149,8 @@ qmrestore /backup/vm-101.tar.gz 101
 - [[Backup]]
 - [[How-To-Configure-Backup]]
 - [[Disaster-Recovery]]
+---
+
+[[index|Back to Proxmox VE]]
+
+[[index|Back to Proxmox VE]]

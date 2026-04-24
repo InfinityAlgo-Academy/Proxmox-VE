@@ -8,3 +8,8 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/Proxmo
 ```
 - Port: 1883
 - Websocket: 9001
+---
+
+[[index|Back to Proxmox VE]]
+
+[[index|Back to Proxmox VE]]

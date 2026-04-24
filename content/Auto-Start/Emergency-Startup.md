@@ -56,3 +56,8 @@ ha-manager crm add infra --vm 100 --priority 100
 - [[Auto-Start]]
 - [[High-Availability]]
 - [[Cluster]]
+---
+
+[[index|Back to Proxmox VE]]
+
+[[index|Back to Proxmox VE]]

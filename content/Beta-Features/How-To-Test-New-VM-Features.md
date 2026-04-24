@@ -66,3 +66,8 @@ qm restore /backup/test-template 999
 - [[Beta-Features]]
 - [[VM]]
 - [[Proxmox-VE]]
+---
+
+[[index|Back to Proxmox VE]]
+
+[[index|Back to Proxmox VE]]

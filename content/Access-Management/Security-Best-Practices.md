@@ -227,3 +227,8 @@ Configure alerts for:
 - [[Two-Factor Authentication]]
 - [[Access Auditing]]
 - [[Roles and Permissions]]
+---
+
+[[index|Back to Proxmox VE]]
+
+[[index|Back to Proxmox VE]]

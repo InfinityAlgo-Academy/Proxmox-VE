@@ -47,3 +47,8 @@ qm set 100 --net0 virtio,bridge=vmbr0,queues=8
 - [[Beta-Features]]
 - [[Networking]]
 - [[Proxmox-VE]]
+---
+
+[[index|Back to Proxmox VE]]
+
+[[index|Back to Proxmox VE]]

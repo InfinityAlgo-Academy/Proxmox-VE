@@ -88,3 +88,8 @@ qm set 100 --efidisk0 local:1G
 - [[BIOS-Configuration]]
 - [[VM]]
 - [[Proxmox-VE]]
+---
+
+[[index|Back to Proxmox VE]]
+
+[[index|Back to Proxmox VE]]

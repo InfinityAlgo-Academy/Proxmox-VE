@@ -122,3 +122,8 @@ rm -rf /var/lib/vz/dump/*
 - [[Backup]]
 - [[Backup-Strategies]]
 - [[Disaster-Recovery]]
+---
+
+[[index|Back to Proxmox VE]]
+
+[[index|Back to Proxmox VE]]

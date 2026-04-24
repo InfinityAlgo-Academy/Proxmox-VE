@@ -601,3 +601,8 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/Proxmo
 - [[HomeLab]] - Home lab overview
 - [[Community-Scripts]] - One-click scripts
 - [[Docker]] - Docker guide
+---
+
+[[index|Back to Proxmox VE]]
+
+[[index|Back to Proxmox VE]]

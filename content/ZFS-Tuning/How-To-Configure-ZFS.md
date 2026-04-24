@@ -41,3 +41,8 @@ zfs set compression=lz4 pool1
 - [[ZFS-Tuning]]
 - [[Storage]]
 - [[Proxmox-VE]]
+---
+
+[[index|Back to Proxmox VE]]
+
+[[index|Back to Proxmox VE]]

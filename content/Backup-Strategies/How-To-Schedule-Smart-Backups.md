@@ -82,3 +82,8 @@ crontab -e
 - [[Backup]]
 - [[How-To-Schedule-Backup]]
 - [[Proxmox-VE]]
+---
+
+[[index|Back to Proxmox VE]]
+
+[[index|Back to Proxmox VE]]

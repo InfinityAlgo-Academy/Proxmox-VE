@@ -56,3 +56,8 @@ qm set 998 --beta-feature 1
 - [[Beta-Features]]
 - [[Proxmox-VE]]
 - [[Community]]
+---
+
+[[index|Back to Proxmox VE]]
+
+[[index|Back to Proxmox VE]]

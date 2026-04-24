@@ -47,3 +47,8 @@ qm set 100 --net0 virtio,bridge=vmbr0.100
 - [[VLAN-Config]]
 - [[Networking]]
 - [[Proxmox-VE]]
+---
+
+[[index|Back to Proxmox VE]]
+
+[[index|Back to Proxmox VE]]

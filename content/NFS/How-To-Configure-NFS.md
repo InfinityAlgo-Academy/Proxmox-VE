@@ -41,3 +41,8 @@ pvesm add nfs nfs-share \
 - [[NFS]]
 - [[Storage]]
 - [[Proxmox-VE]]
+---
+
+[[index|Back to Proxmox VE]]
+
+[[index|Back to Proxmox VE]]

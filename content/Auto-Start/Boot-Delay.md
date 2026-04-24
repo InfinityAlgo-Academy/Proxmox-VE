@@ -85,3 +85,8 @@ qm status 100
 - [[Auto-Start]]
 - [[Startup-Delays]]
 - [[Storage-Configuration]]
+---
+
+[[index|Back to Proxmox VE]]
+
+[[index|Back to Proxmox VE]]

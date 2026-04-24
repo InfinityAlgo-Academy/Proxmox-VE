@@ -11,3 +11,8 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/Proxmo
 
 ## Prometheus
 bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/ct/prometheus.sh)"
+---
+
+[[index|Back to Proxmox VE]]
+
+[[index|Back to Proxmox VE]]

@@ -182,3 +182,8 @@ Solutions:
 - [[User Management]]
 - [[Roles and Permissions]]
 - [[Automation Scripts]]
+---
+
+[[index|Back to Proxmox VE]]
+
+[[index|Back to Proxmox VE]]

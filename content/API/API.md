@@ -103,3 +103,8 @@ pvesh create /nodes/pve/qemu --vmid 100
 
 - [[Proxmox-VE]] - Main documentation
 - [[Scripts]] - Automation scripts
+---
+
+[[index|Back to Proxmox VE]]
+
+[[index|Back to Proxmox VE]]

@@ -115,3 +115,8 @@ ls -la /var/lib/vz/images/100/
 - [[Troubleshooting]]
 - [[Auto-Start]]
 - [[Proxmox-VE]]
+---
+
+[[index|Back to Proxmox VE]]
+
+[[index|Back to Proxmox VE]]

@@ -165,3 +165,8 @@ ha-manager status
 - [[Storage]] - Shared storage
 - [[VM]] - VM migration
 - [[Troubleshooting]] - Cluster issues
+---
+
+[[index|Back to Proxmox VE]]
+
+[[index|Back to Proxmox VE]]

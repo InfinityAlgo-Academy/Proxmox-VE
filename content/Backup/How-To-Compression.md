@@ -83,3 +83,8 @@ gzip -l /var/lib/vz/dump/vzdump-qemu-100-2024.tar.gz
 
 - [[Backup]]
 - [[How-To-Configure-Backup]]
+---
+
+[[index|Back to Proxmox VE]]
+
+[[index|Back to Proxmox VE]]

@@ -167,3 +167,8 @@ sysbench memory --memory-block-size=1M --memory-total-size=10G run
 
 - [[Proxmox-VE]] - Main documentation
 - [[Advanced]] - Advanced configuration
+---
+
+[[index|Back to Proxmox VE]]
+
+[[index|Back to Proxmox VE]]
