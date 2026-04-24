@@ -1,195 +1,77 @@
 ---
-title: Proxmox VE Network Services Guide
+title: Network Services
+tags:
+  - network
+  - services
+  - dns
+  - dhcp
+  - ldap
 ---
 
-# Proxmox VE Network Services Guide
+# Network Services
 
-## Table of Contents
+## Overview
 
-1. [DNS Services](#dns-services)
-2. [DHCP Services](#dhcp-services)
-3. [Proxy Services](#proxy-services)
-4. [VPN Services](#vpn-services)
-5. [Firewall Services](#firewall-services)
+Configure essential network services for Proxmox.
 
----
+## DHCP Server
 
-## DNS Services
-
-### dnsmasq
+### Install
 
 ```bash
-# Install
-apt install -y dnsmasq
-
-# Configure /etc/dnsmasq.conf
-interface=vmbr0
-bind-interfaces
-dhcp-range=192.168.1.200,192.168.1.250,12h
-dhcp-option=option:router,192.168.1.1
-
-# Start
-systemctl enable dnsmasq
-systemctl start dnsmasq
+apt install isc-dhcp-server -y
 ```
 
-### Unbound
+### Configure
 
 ```bash
-# Install
-apt install -y unbound
-
-# Configure /etc/unbound/unbound.conf
-server:
-    interface: 0.0.0.0
-    access-control: 192.168.1.0/24 allow
-
-# Start
-systemctl enable unbound
-systemctl start unbound
-```
-
----
-
-## DHCP Services
-
-### ISC DHCP
-
-```bash
-# Install
-apt install -y isc-dhcp-server
-
-# Configure /etc/dhcp/dhcpd.conf
+# /etc/dhcp/dhcpd.conf
 subnet 192.168.1.0 netmask 255.255.255.0 {
-    range 192.168.1.200 192.168.1.250;
+    range 192.168.1.50 192.168.1.100;
     option routers 192.168.1.1;
+    option domain-name-servers 8.8.8.8, 8.8.4.4;
+    default-lease-time 600;
+    max-lease-time 7200;
 }
+```
 
-# Start
-systemctl enable isc-dhcp-server
+### Start
+
+```bash
 systemctl start isc-dhcp-server
 ```
 
----
+## DNS Server
 
-## Proxy Services
+- See [[DNS-Config]]
 
-### Squid
+## LDAP/AD Integration
 
-```bash
-# Install
-apt install -y squid
+- See [[LDAP-AD-Integration]]
 
-# Configure /etc/squid/squid.conf
-http_port 3128
-acl localnet src 192.168.1.0/24
-http_access allow localnet
-
-# Start
-systemctl enable squid
-systemctl start squid
-```
-
-### Nginx
+## NTP Server
 
 ```bash
-# Install
-apt install -y nginx
+# Install chrony
+apt install chrony -y
 
 # Configure
-server {
-    listen 80;
-    server_name myapp.local;
-    location / {
-        proxy_pass http://192.168.1.100:8080;
-    }
-}
+nano /etc/chrony/chrony.conf
 
-# Start
-systemctl enable nginx
-systemctl start nginx
+# Allow clients
+allow 192.168.1.0/24
 ```
 
----
+## Services for VMs
 
-## VPN Services
+| Service | Port | Description |
+|---------|------|-------------|
+| DHCP | 67 | IP assignment |
+| DNS | 53 | Name resolution |
+| NTP | 123 | Time sync |
+| LDAP | 389 | Directory |
 
-### WireGuard
+## See Also
 
-```bash
-# Install
-apt install -y wireguard wireguard-tools
-
-# Create keys
-wg genkey | tee privatekey | wg pubkey > publickey
-
-# Configure /etc/wireguard/wg0.conf
-[Interface]
-Address = 10.0.0.1/24
-PrivateKey = <private-key>
-ListenPort = 51820
-
-[Peer]
-PublicKey = <peer-public-key>
-AllowedIPs = 10.0.0.2/32
-
-# Start
-wg-quick up wg0
-systemctl enable wg-quick@wg0
-```
-
-### OpenVPN
-
-```bash
-# Install
-apt install -y openvpn easy-rsa
-
-# Setup
-make-cadir /etc/openvpn/easy-rsa
-cd /etc/openvpn/easy-rsa
-./easyrsa build-server-full server nopass
-
-# Configure server
-cp /etc/openvpn/easy-rsa/pki/issued/server.crt /etc/openvpn/server.crt
-cp /etc/openvpn/easy-rsa/pki/private/server.key /etc/openvpn/server.key
-cp /etc/openvpn/easy-rsa/pki/ca.crt /etc/openvpn/ca.crt
-
-# Start
-systemctl enable openvpn@server
-systemctl start openvpn@server
-```
-
----
-
-## Firewall Services
-
-### UFW
-
-```bash
-# Install
-apt install -y ufw
-
-# Configure
-ufw default deny incoming
-ufw default allow outgoing
-ufw allow 22/tcp
-ufw allow 80/tcp
-ufw allow 443/tcp
-
-# Enable
-ufw enable
-```
-
----
-
-## Keywords
-
-#dns #dhcp #proxy #vpn #firewall
-
-## Links
-
-- [[Proxmox-VE]] - Main documentation
-- [[Networking]] - Network configuration
----
-
-[[index|Back to Proxmox VE]]
+- [[index|Back to Proxmox VE]]
+- [[Network-Config]]
