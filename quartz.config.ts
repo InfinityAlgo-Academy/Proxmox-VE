@@ -23,9 +23,9 @@ const config: QuartzConfig = {
       fontOrigin: "googleFonts",
       cdnCaching: true,
       typography: {
-        header: "Andale Mono",
-        body: "Andale Mono",
-        code: "Andale Mono",
+        header: "Courier Prime",
+        body: "Courier Prime",
+        code: "Courier Prime",
       },
       colors: {
         lightMode: {
