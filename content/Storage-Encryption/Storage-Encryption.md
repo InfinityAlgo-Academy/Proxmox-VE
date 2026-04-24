@@ -1,0 +1,1 @@
+# Storage Encryption Guide - LUKS, VeraCrypt

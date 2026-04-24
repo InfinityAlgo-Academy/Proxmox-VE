@@ -1,0 +1,1 @@
+# EFI Configuration - UEFI Boot

@@ -1,0 +1,1 @@
+# Cloud-Init Configuration - Automated VM Provisioning

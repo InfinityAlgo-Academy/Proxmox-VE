@@ -1,0 +1,1 @@
+# Virtual Disk Management - qcow2, raw, vmdk

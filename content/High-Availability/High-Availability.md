@@ -1,0 +1,1 @@
+# High Availability Guide - HA Setup, Fencing
