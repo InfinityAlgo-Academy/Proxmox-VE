@@ -1,17 +1,49 @@
-# Quartz v4
+# Proxmox VE Knowledge Base
 
-> “[One] who works with the door open gets all kinds of interruptions, but [they] also occasionally gets clues as to what the world is and what might be important.” — Richard Hamming
+A comprehensive open-source knowledge base for Proxmox VE virtualization platform.
 
-Quartz is a set of tools that helps you publish your [digital garden](https://jzhao.xyz/posts/networked-thought) and notes as a website for free.
+## Contents
 
-🔗 Read the documentation and get started: https://quartz.jzhao.xyz/
+- Installation
+- VM Management
+- Container Management
+- Networking
+- Storage
+- Clustering
+- Backup
+- Security
+- Troubleshooting
 
-[Join the Discord Community](https://discord.gg/cRFFHYye7t)
+## Quick Links
 
-## Sponsors
+| Topic | Description |
+|-------|-------------|
+| [[Installation]] | Install Proxmox VE |
+| [[VM]] | Create & manage VMs |
+| [[Containers]] | LXC containers |
+| [[Networking]] | Network setup |
+| [[Storage]] | Storage config |
+| [[Cluster]] | Clustering |
+| [[Backup]] | Backup |
+| [[Security]] | Security |
 
-<p align="center">
-  <a href="https://github.com/sponsors/jackyzha0">
-    <img src="https://cdn.jsdelivr.net/gh/jackyzha0/jackyzha0/sponsorkit/sponsors.svg" />
-  </a>
-</p>
+## Getting Started
+
+1. Install Proxmox VE
+2. Configure storage
+3. Create VMs/containers
+4. Set up networking
+
+## Contributing
+
+See CONTRIBUTING.md for how to contribute.
+
+## License
+
+AGPL v3 - See LICENSE file.
+
+## Links
+
+- GitHub: https://github.com/InfinityAlgo-Academy/Proxmox-VE
+- Telegram: https://t.me/InfinityAlgo_Group_Topics
+- Site: https://infinityalgo-academy.github.io/Proxmox-VE/
