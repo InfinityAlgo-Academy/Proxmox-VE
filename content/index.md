@@ -1,3 +1,7 @@
+---
+title: Proxmox VE
+---
+
 # PROXMOX VE
 # Complete Virtualization Platform
 
